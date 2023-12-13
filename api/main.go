@@ -11,7 +11,7 @@ var (
 )
 
 func initRoutes(r *gin.RouterGroup) {
-	r.GET("/", func(c *gin.Context) {
+	r.GET("/admin", func(c *gin.Context) {
 		c.String(http.StatusOK, "Hello World")
 	})
 }
